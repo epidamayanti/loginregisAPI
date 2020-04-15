@@ -107,13 +107,13 @@
                             android:layout_height="24dp"
                             android:layout_marginStart="16dp"
                             android:tint="@color/md_grey_500"
-                            app:layout_constraintBottom_toBottomOf="@+id/editText8"
+                            app:layout_constraintBottom_toBottomOf="@+id/et_email"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/editText8"
+                            app:layout_constraintTop_toTopOf="@+id/et_email"
                             app:srcCompat="@drawable/baseline_mail" />
 
                         <EditText
-                            android:id="@+id/editText8"
+                            android:id="@+id/et_email"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="8dp"
@@ -141,7 +141,7 @@
                             android:background="@color/md_grey_300"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/editText8" />
+                            app:layout_constraintTop_toBottomOf="@+id/et_email" />
 
                         <ImageView
                             android:id="@+id/imageView105"
@@ -149,9 +149,9 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
                             android:tint="@color/md_grey_500"
-                            app:layout_constraintBottom_toBottomOf="@+id/editText14"
+                            app:layout_constraintBottom_toBottomOf="@+id/et_password"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/editText14"
+                            app:layout_constraintTop_toTopOf="@+id/et_password"
                             app:srcCompat="@drawable/baseline_lock" />
 
                         <ImageView
@@ -160,13 +160,13 @@
                             android:layout_height="24dp"
                             android:layout_marginStart="16dp"
                             android:tint="@color/md_grey_500"
-                            app:layout_constraintBottom_toBottomOf="@+id/et_first_name"
+                            app:layout_constraintBottom_toBottomOf="@+id/et_name"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/et_first_name"
+                            app:layout_constraintTop_toTopOf="@+id/et_name"
                             app:srcCompat="@drawable/baseline_person_outline_black_24" />
 
                         <EditText
-                            android:id="@+id/et_first_name"
+                            android:id="@+id/et_name"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="8dp"
@@ -194,10 +194,10 @@
                             android:background="@color/md_grey_400"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/et_first_name" />
+                            app:layout_constraintTop_toBottomOf="@+id/et_name" />
 
                         <EditText
-                            android:id="@+id/editText14"
+                            android:id="@+id/et_password"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="8dp"
@@ -235,7 +235,7 @@
                     app:layout_constraintStart_toStartOf="parent" />
 
                 <TextView
-                    android:id="@+id/signuptTextView"
+                    android:id="@+id/btn_signup"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"

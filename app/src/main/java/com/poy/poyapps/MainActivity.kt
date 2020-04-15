@@ -6,6 +6,7 @@ import com.poy.poyapps.commons.BaseActivity
 import com.poy.poyapps.commons.RxBus
 import com.poy.poyapps.commons.Utils
 import com.poy.poyapps.view.Login
+import com.poy.poyapps.view.Register
 
 class MainActivity : BaseActivity() {
 
@@ -31,6 +32,7 @@ class MainActivity : BaseActivity() {
     private fun manageBus(event:Any) {
         when (event) {
             Utils.LOGIN -> changeFragment(Login(), false, Utils.LOGIN)
+            Utils.REGISTER -> changeFragment(Register(), false, Utils.REGISTER)
         }
     }
 }

@@ -34,6 +34,17 @@ class LoadingAlert {
             return dialog
         }
 
+        fun regisDialog(context: Context, activity: Activity): Dialog {
+            val dialog = Dialog(context)
+            val inflate = LayoutInflater.from(context).inflate(R.layout.register_alert, activity.findViewById<ViewGroup>(R.id.custom_toast_layout))
+            dialog.setContentView(inflate)
+            dialog.setCancelable(false)
+            dialog.window!!.setBackgroundDrawable(
+                ColorDrawable(Color.TRANSPARENT)
+            )
+            return dialog
+        }
+
         fun sendDialog(context: Context, activity: Activity): Dialog {
             val dialog = Dialog(context)
             val inflate = LayoutInflater.from(context).inflate(R.layout.loading_alert, activity.findViewById<ViewGroup>(R.id.custom_toast_layout))
